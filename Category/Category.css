@@ -1,0 +1,85 @@
+.categorydiv{
+    width: 100%;
+    height: 20vh;
+    /* background-color: orange; */
+    margin-top: 60px;
+  }
+  .categoryname{
+    width: 100%;
+    height: 61%;
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+  }
+  .continentname{
+    font-size: 40px;
+    color: #00B4D8;
+    font-family: sans-serif;
+    margin-left: 7%;
+  }
+  .countries{
+    width: 100%;
+    height: 50%;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+  }
+  .countries ul{
+    list-style: none; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-left: 7%;
+    margin-bottom: 1.5%;
+  }
+  .countries ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    transition: all 350ms ease-in;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #03045E;
+  }
+  .different ul li{
+    color: #00B4D8;
+  }
+  
+  .CategoryImagesDiv{
+    width: 100%;
+    height: 50vh;
+    /* background-color: #03045E; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .imagewrapper{
+    width: 90%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+  }
+  .imageone{
+    width: 30%;
+    height: 100%;
+    /* background-color: red; */
+    background-image: url(../vite-project/src/assets/one.png);
+  }
+  .imagetwo{
+    width: 30%;
+    height: 100%;
+    /* background-color: green; */
+    background-image: url(../vite-project/src/assets/two.png);
+  }
+  .imagethree{
+    width: 30%;
+    height: 100%;
+    /* background-color: pink; */
+    background-image: url(../vite-project/src/assets/three.png);
+  }
+  

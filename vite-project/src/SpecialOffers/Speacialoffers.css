@@ -1,0 +1,65 @@
+.specialOfferdiv{
+    width: 100%;
+    height: 70vh;
+    margin-top: 60px;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .specialOffernames{
+    width: 100%;
+    height: 30%;
+    /* background-color: red; */
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .specialtext{
+    font-size: 40px;
+    color: #00B4D8;
+    font-family: sans-serif;
+    margin-right: 4%;
+  }
+  .specialsmalltext{
+    font-size: 20px;
+    color: #03045E;
+    font-family: sans-serif;
+    margin-left: -3%;
+  }
+  .specialofferwrapper{
+    width: 90%;
+    height: 70%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .specialImgone{
+    width: 22%;
+    height: 100%;
+    /* background-color: forestgreen; */
+    background-image: url(../assets/specialone.png);
+  }
+  .specialImgtwo{
+    width: 22%;
+    height: 100%;
+    /* background-color: brown; */
+    background-image: url(../assets/specialtwo.png);
+  }
+  .specialImgthree{
+    width: 22%;
+    height: 100%;
+    /* background-color: olivedrab; */
+    background-image: url(../assets/specialthree.png);
+  }
+  .specialImgfour{
+    width: 22%;
+    height: 100%;
+    /* background-color: purple; */
+    background-image: url(../assets/specialfour.png);
+  }
+

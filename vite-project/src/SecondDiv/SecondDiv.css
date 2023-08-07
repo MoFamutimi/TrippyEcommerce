@@ -1,0 +1,135 @@
+.theseconddiv{
+    width: 100%;
+    height: 800px;
+    /* background-color: blue; */
+    position: relative;
+    background-image: url('../assets/secondimage.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .wrapper{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* gap: 90px; */
+    align-items: center;
+    
+  }
+  .text_cont{
+    width: 100%;
+    height: 200px;
+    /* background: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
+  .takeawaytext{
+    font-size: 65px;
+    color: white;
+    font-family: sans-serif;
+  }
+  .blurdiv{
+    width: 40%;
+    height: 25%;
+    background-color: rgba(255, 255, 255, 0.542);
+    margin-top: -4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .whitecurvediv{
+    width: 90%;
+    height: 60%;
+  }
+   .two{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: white;
+    margin-left: 6%;
+  }
+  .inputdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .inputdiv2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .inputs{
+    border: none;
+    outline: none;
+  }
+  .inputs2{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: #a6a2a2;
+    color: white;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 3px 28px 5px rgba(0, 0, 0, 0.11);
+  }
+  button {
+    padding: 0;
+    border: none;
+    background: none;
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+  }
+  .Search-button{
+    display: inline-block;
+    padding: 10px 20px;
+   background-color: #00B4D8;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    /* border: 2px solid #4CAF50; */
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  .Search-button:hover {
+    background-color: #45a049;
+  }
+  
+  .Search-button:active {
+    background-color: #3e8e41;
+  }
+  .one{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* background-color: red; */
+  }
+  .one div{
+    width: 30%;
+    height: 90%;
+    background: #fff;
+    border-radius:0px 5px;
+    right: 20%;
+  }
+  .two article{
+    width: 23%;
+    height: 60%;
+    /* background: rgb(152, 142, 142); */
+  }
+  

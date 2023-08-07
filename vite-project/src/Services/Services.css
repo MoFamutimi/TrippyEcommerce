@@ -1,0 +1,319 @@
+.servivesdiv{
+    width: 100%;
+    height: 70vh;
+    margin-top: 60px;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .servicename{
+    width: 100%;
+    height: 30%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .servicetext{
+    font-size: 40px;
+    color: #00B4D8;
+    font-family: sans-serif;
+    margin-left: 7%;
+  }
+  .serviceswrapper{
+    width: 90%;
+    height: 90%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .flightservice{
+    width: 23%;
+   height: 85%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    background: #FFF;
+  box-shadow: 0px 3px 28px 5px rgba(0, 0, 0, 0.11)
+  }
+  .hotelservice{
+    width: 23%;
+    height: 98%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 3px 28px 5px rgba(0, 0, 0, 0.11);
+  }
+  .carservice{
+    width: 23%;
+    height: 85%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 3px 28px 5px rgba(0, 0, 0, 0.11);
+  }
+  .premiumservice{
+    width: 23%;
+    height: 98%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 3px 28px 5px rgba(0, 0, 0, 0.11);
+  }
+  .flightlogo{
+    width: 15%;
+    height: 15%;
+    /* background-color: red; */
+    background-image: url(../assets/flight.png);
+  }
+  .flightname{
+    width: 40%;
+    height: 15%;
+    /* background-color: pink; */
+  }
+  .flightcolor{
+    font-size: 30px;
+    color: #00B4D8;
+    font-family: sans-serif;
+    margin-left: 10%;
+  }
+  .flightwritingswrapper{
+    width: 80%;
+    height: 90%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .flightwriteOne{
+    width: 100%;
+    height: 25%;
+    /* background-color: orangered; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .flightwritetwo{
+    width: 100%;
+    height: 25%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .flightwritethree{
+    width: 100%;
+    height: 25%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .flightcircleone{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #00B4D8;
+  }
+  .flightactualwords{
+    font-family: sans-serif;
+    color: #03045E;
+    font-size: 16px;
+  }
+  .theflightss{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+  }
+  .theflightss2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+  }
+  .hotellogo{
+    width: 15%;
+    height: 15%;
+    margin-top: 4%;
+    /* background-color: red; */
+    background-image: url(../assets/hotel.png);
+  }
+  .hotelname{
+    width: 40%;
+    height: 15%;
+    margin-top: 3%;
+    margin-left: 3%;
+    /* background-color: pink; */
+  }
+  .hotelcolor{
+    font-size: 30px;
+    color: #00B4D8;
+    font-family: sans-serif;
+    margin-left: 16%;
+  }
+  .hotelwritingswrapper{
+    width: 80%;
+    height: 90%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    /* justify-content: space-between; */
+  }
+  .hotelwriteOne{
+    width: 100%;
+    height: 25%;
+    /* background-color: orangered; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .hotelwritetwo{
+    width: 100%;
+    height: 25%;
+    /* background-color: peru; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .hotelwritethree{
+    width: 100%;
+    height: 25%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .carlogo{
+    width: 15%;
+    height: 15%;
+    margin-top: 4%;
+    /* background-color: red; */
+    background-image: url(../assets/car.png);
+  }
+  .carname{
+    width: 40%;
+    height: 15%;
+    margin-top: 3%;
+    /* background-color: pink; */
+  }
+  .carcolor{
+    font-size: 30px;
+    color: #00B4D8;
+    font-family: sans-serif;
+    margin-left: 29%;
+  }
+  .carwritingswrapper{
+    width: 80%;
+    height: 90%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    /* justify-content: space-between; */
+  }
+  .carwriteOne{
+    width: 100%;
+    height: 25%;
+    /* background-color: orangered; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .carwritetwo{
+    width: 100%;
+    height: 25%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .carwritethree{
+    width: 100%;
+    height: 25%;
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .premiumlogo{
+    width: 15%;
+    height: 13%;
+    margin-top: 4%;
+    /* background-color: red; */
+    background-image: url(../assets/premium.png);
+  }
+  .premiumname{
+    width: 45%;
+    height: 15%;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .premiumcolor{
+    font-size: 30px;
+    color: #00B4D8;
+    font-family: sans-serif;
+    /* margin-left: 29%; */
+  }
+  .premiumwriteOne{
+    width: 100%;
+    height: 25%;
+    /* background-color: orangered; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .premiumwritingswrapper{
+    width: 80%;
+    height: 90%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    /* justify-content: space-between; */
+  }
+  .premiumwritetwo{
+    width: 100%;
+    height: 25%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .premiumwritethree{
+    width: 100%;
+    height: 25%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }

@@ -1,0 +1,59 @@
+.Attractiondiv{
+    width: 100%;
+    height: 70vh;
+    margin-top: 60px;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  .attractionname{
+    width: 100%;
+    height: 30%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* justify-content: space-between; */
+    flex-direction: column;
+  }
+  .famoustext{
+    font-size: 40px;
+    color: #00B4D8;
+    font-family: sans-serif;
+    margin-right: 4%;
+  }
+  .famoussmalltext{
+    font-size: 20px;
+    color: #03045E;
+    font-family: sans-serif;
+    margin-right: 5%;
+  }
+  .attractionwrapper{
+    width: 90%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+  }
+  .attraction_One{
+    width: 28%;
+    height: 100%;
+    /* background-color: purple; */
+    background-image: url(../assets/famousOne.png);
+  }
+  .attraction_two{
+    width: 28%;
+    height: 100%;
+    /* background-color: blue; */
+    background-image: url(../assets/famousTwo.png);
+  }
+  .attraction_three{
+    width: 28%;
+    height: 100%;
+    /* background-color: green; */
+    background-image: url(../assets/famousThree.png);
+  }
+  
