@@ -1,5 +1,6 @@
 import React from 'react'
 import "./SecondDiv.css";
+import "./SecondDivMed.css";
 
 const SecondDiv = () => {
   return (

@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Speacialoffers.css";
+import "./SpecialoffersMed.css";
 
 const Specialoffers = () => {
   return (

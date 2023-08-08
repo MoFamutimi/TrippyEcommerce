@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Attraction.css";
+import "./AttractionMed.css";
 
 const Attraction = () => {
   return (

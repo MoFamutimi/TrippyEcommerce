@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Nature.css";
+import "./NatureMedia.css";
 
 const Nature = () => {
   return (

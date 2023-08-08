@@ -1,0 +1,65 @@
+@media only screen and (min-width: 320px) and (max-width:580px){
+    .specialOfferdiv{
+        width: 100%;
+        height: 45vh;
+        margin-top: 60px;
+        /* background-color: pink; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+      }
+      .specialtext{
+        font-size: 30px;
+        color: #00B4D8;
+        font-family: sans-serif;
+        margin-right: 4%;
+      }
+      .specialsmalltext{
+        font-size: 13px;
+        color: #03045E;
+        font-family: sans-serif;
+        margin-left: -3%;
+      }
+      .specialImgone{
+        width: 24%;
+        height: 100%;
+        /* background-color: forestgreen; */
+        background-image: url(../assets/specialone.png);
+      }
+      .specialImgtwo{
+        width: 24%;
+        height: 100%;
+        /* background-color: brown; */
+        background-image: url(../assets/specialtwo.png);
+      }
+      .specialImgthree{
+        width: 24%;
+        height: 100%;
+        /* background-color: olivedrab; */
+        background-image: url(../assets/specialthree.png);
+      }
+      .specialImgfour{
+        width: 24%;
+        height: 100%;
+        /* background-color: purple; */
+        background-image: url(../assets/specialfour.png);
+      }
+}
+
+
+
+
+@media only screen and (min-width: 580px) and (max-width:1024px){
+    .specialOfferdiv{
+        width: 100%;
+        height: 48vh;
+        margin-top: 40px;
+        /* background-color: pink; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+      }
+      
+}

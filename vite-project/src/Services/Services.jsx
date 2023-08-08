@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Services.css";
+import "./ServicesMedia.css";
 
 const Services = () => {
   return (

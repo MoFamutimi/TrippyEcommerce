@@ -1,0 +1,88 @@
+@media only screen and (min-width: 320px) and (max-width:580px){
+    .Attractiondiv{
+        width: 100%;
+        height: 35vh;
+        margin-top: 20px;
+        /* background-color: orange; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+      }
+      .famoustext{
+        font-size: 30px;
+        color: #00B4D8;
+        font-family: sans-serif;
+        margin-right: 4%;
+      }
+      .famoussmalltext{
+        font-size: 15px;
+        color: #03045E;
+        font-family: sans-serif;
+        margin-right: 5%;
+      }
+      .attraction_One{
+        width: 30%;
+        height: 100%;
+        /* background-color: purple; */
+        background-image: url(../assets/famousOne.png);
+      }
+      .attraction_two{
+        width: 30%;
+        height: 100%;
+        /* background-color: blue; */
+        background-image: url(../assets/famousTwo.png);
+      }
+      .attraction_three{
+        width: 30%;
+        height: 100%;
+        /* background-color: green; */
+        background-image: url(../assets/famousThree.png);
+      }
+      .attractionwrapper{
+        width: 90%;
+        height: 100%;
+        /* background-color: aqua; */
+        display: flex;
+        /* justify-content: space-between; */
+      }
+      .attractionname{
+        width: 100%;
+        height: 30%;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        /* justify-content: space-between; */
+        flex-direction: column;
+        margin-bottom: 12%;
+      }
+}
+
+
+
+
+@media only screen and (min-width: 580px) and (max-width:1024px){
+    .attractionname{
+        width: 100%;
+        height: 30%;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        /* justify-content: space-between; */
+        flex-direction: column;
+      }
+      .Attractiondiv{
+        width: 100%;
+        height: 45vh;
+        margin-top: 20px;
+        /* background-color: orange; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+      }
+}
